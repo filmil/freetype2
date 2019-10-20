@@ -2078,7 +2078,7 @@ FT_BEGIN_HEADER
    *     The size in bytes of the file in memory.
    *
    *   pathname ::
-   *     A pointer to an 8-bit file pathname.
+   *     A pointer to an 8-bit file pathname. The pointer is not owned.
    *
    *   stream ::
    *     A handle to a source stream object.
